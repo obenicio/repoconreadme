@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tabla</title>
+    <link href="estilo-tabla.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Tabla Ejercicio 2</h1>
+    <button onclick="resetear();">Reset</button>
+    <button onclick="guardarTabla();">Guardar tabla</button>
+    <select id="tablasguardadas">
+        <option value="0">Inicial</option>
+    </select>
+    <table id="tablapaises">
+    <tr>
+        <th>Pais</th>
+        <th>Puntaje</th>
+    </tr>
+    <tr>
+        <td>Argentina</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td>Perú</td>
+        <td>600</td>
+    </tr>
+    <tr>
+        <td>Colombia</td>
+        <td>550</td>
+    </tr>
+    <tr>
+        <td>Mexico</td>
+        <td>550</td>
+    </tr>
+    <tr>
+        <td>Chile</td>
+        <td>745</td>
+    </tr>
+    </table>
+    <button onclick="agregarFila();">Añadir pais</button>
+    <button>Iniciar</button>
+  </body>
+  <script src="ejercicio-9b.js"></script>
+</html>
